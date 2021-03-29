@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Phase-3 Level-1</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="P3L1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <form name="studentable" method="GET" class="forms" action="#">
+      <h2>Student Table</h2>
+      <table id="myTable" contenteditable="">
+        <tr>
+          <th>Student Id</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Degree</th>
+          <th>Sub Degree</th>
+          <th>date Of Birth</th>
+          <th>Email Id</th>
+          <th>Mobile Number</th>
+        </tr>
+        <tr id="addrow">
+          <td id="addnew"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>XX-XX-XXXX</td>
+          <td>XXX@gmail.com</td>
+          <td>123-456-7890</td>
+        </tr>
+
+        <!-- <tr id="addrow">
+          <td id="addnew"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr> -->
+      </table>
+    </form>
+
+    <button class="button" onclick="addRow()" id="add">Add Row</button>
+    <button class="button" onclick="removeRow()" id="remove">Remove Row</button>
+
+    <script src="P3L1.js"></script>
+  </body>
+</html>
